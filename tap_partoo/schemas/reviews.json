@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "business_id": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "update_date": {
+      "type": "date-time"
+    },
+    "rating": {
+      "type": "integer"
+    },
+    "content": {
+      "type": "string"
+    }
+  }
+}

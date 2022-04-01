@@ -1,0 +1,25 @@
+version: 1
+send_anonymous_usage_stats: true
+project_id: tap-partoo
+plugins:
+  extractors:
+  - name: tap-partoo
+    namespace: tap_partoo
+    pip_url: -e .
+    capabilities:
+    - state
+    - catalog
+    - discover
+    settings:
+    - name: api_key
+      kind: password
+      documentation: "https://help.partoo.co/en/articles/4698792-how-to-manage-my-api-keys-from-partoo"
+    - name: start_date
+      kind: date_iso8601
+      value: '2020-01-17T00:00:00Z'
+    config:
+      start_date: '2010-01-01T00:00:00Z'
+  loaders:
+  - name: target-jsonl
+    variant: andyh1203
+    pip_url: target-jsonl
