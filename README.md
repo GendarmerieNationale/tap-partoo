@@ -5,7 +5,7 @@
 Built with the [Meltano Tap SDK](https://sdk.meltano.com) for Singer Taps.
 
 ## Installation
-After [adding ssh keys to your account](pipx install git+ssh://git@framagit.org/cyberimpact/tap-partoo.git), you can install the Singer tap with:
+You can install the Singer tap with:
 
 ```bash
 pipx install git+https://github.com/GendarmerieNationale/tap-partoo.git
