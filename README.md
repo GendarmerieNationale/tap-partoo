@@ -1,5 +1,4 @@
 # tap-partoo
-
 `tap-partoo` is a Singer tap for the [Partoo REST API](https://developers.partoo.co/).
 
 Built with the [Meltano Tap SDK](https://sdk.meltano.com) for Singer Taps.
